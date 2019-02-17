@@ -92,9 +92,28 @@ API Url Structure
 
 |URL|  Method | Parameters  | Description  |
 |---|---|---|---|
+|  /movies| GET  |   |   Fetching all Movies |
 |  /movies  |  POST |  title, description, gener, year  |  create new record |
 |  /movies/:id | GET  |   |   Fetching single Movie |
 |  /movies/:id  | PUT  |   |  	Updating single Movie |
 |  /movies/:id  | DELETE  |  movie |  	status 	Deleting single Movie |
  
-
+ 
+ <img src="screen/screen1.png" alt="Screen1" > 
+ 
+  <img src="screen/screen2.png" alt="Screen2" > 
+  
+   <img src="screen/screen3.png" alt="Screen3" > 
+ 
+  <img src="screen/screen4.png" alt="Screen4" > 
+ 
+  <img src="screen/screen5.png" alt="Screen5" > 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
