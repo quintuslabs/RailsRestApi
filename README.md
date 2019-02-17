@@ -78,6 +78,7 @@ POST http://abc.com/v1/movies – Will create a new movie record
 There is a huge discussion on API versioning whether to maintain api version in the URL or in the HTTP request headers. Even though it is recommended that version should be included in the request headers, I feel comfortable to maintain it in the URL itself as it is very convenient on the client side to migrate from one version to another.
 
 Example:
+
 http://abc.com/v1/movies
 
 http://abc.com/v2/movies
