@@ -79,6 +79,7 @@ There is a huge discussion on API versioning whether to maintain api version in 
 
 Example:
 http://abc.com/v1/movies
+
 http://abc.com/v2/movies
 
 » Content Type
