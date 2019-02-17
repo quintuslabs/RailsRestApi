@@ -1,0 +1,7 @@
+<%= simple_form_for @movie do |f| %>
+  <%= f.input :title, label: 'Title', placeholder: 'Enter Movie Title' %>
+  <%= f.input :description, placeholder: 'Movie Description', label: 'Movie Description' %>
+  <%= f.input :gener, placeholder: 'Gener', label:'Gener' %>
+  <%= f.input :year, placeholder: 'Year', Year: 'year' %>
+  <%= f.button :submit %>
+<% end %>

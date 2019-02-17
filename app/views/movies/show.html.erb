@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-6">
+            <div class="card">
+                    <div class="pull-right">
+                        <%= link_to  edit_movie_path(@movie) do %>
+                         <i class="fa fa-pencil"></i>
+                         <% end %>
+                         <%= link_to  movie_path(@movie), method: :delete, data: {confirm: "Are you sure to delete ?"} do %>
+                         <i class="fa fa-trash" style="color:red"></i>
+                         <% end %>
+                    </div>
+             <h1><%= @movie.title %></h1><br>
+             <p><%= @movie.description %></p><br>
+             <%= @movie.gener %><br>
+             <%= @movie.year %><br>
+             <hr>
+            </div>
+     </div>
+    <div class="col-sm-3">
+     </div>
+</div>
